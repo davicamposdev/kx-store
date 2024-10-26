@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Novega";
+    src: url("./fonts/Novega/novegaregular-pvojx.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Josefin";
+    src: url(./fonts/Josefin/JosefinSans-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Josefin-italic";
+    src: url(./fonts/Josefin/JosefinSans-MediumItalic.ttf) format("truetype");
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Josefin-bold";
+    src: url(./fonts/Josefin/JosefinSans-Bold.ttf) format("truetype");
+    font-style: bold;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Josefin-boldItalic";
+    src: url(./fonts/Josefin/JosefinSans-BoldItalic.ttf) format("truetype");
+    font-style: bold italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Josefin-thin";
+    src: url(./fonts/Josefin/JosefinSans-Thin.ttf) format("truetype");
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Josefin-thinItalic";
+    src: url(./fonts/Josefin/JosefinSans-ThinItalic.ttf) format("truetype");
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Josefin-light";
+    src: url(./fonts/Josefin/JosefinSans-ExtraLight.ttf) format("truetype");
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Josefin-lightItalic";
+    src: url(./fonts/Josefin/JosefinSans-ExtraLightItalic.ttf)
+      format("truetype");
+    font-style: italic;
+    font-display: swap;
+  }
+
+  html {
+    font-family: "Josefin", sans-serif;
+  }
+}
