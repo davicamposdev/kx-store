@@ -97,10 +97,6 @@ sequelize
     console.error("Erro ao sincronizar o modelo:", err);
   });
 
-// Relacionamento entre Client e Sale (exemplo)
-// Client.hasMany(Sale);
-// Sale.belongsTo(Client);
-
 //Middleware
 app.use(cors());
 app.use(express.json());
